@@ -10,7 +10,7 @@ ENV XXL_CONTEXT_PATH="/xxl-job-admin" \
     XXL_MYSQL_PASSWORD=""\
     XXL_ACCESS_TOKEN=""
 
-ADD xxl-job-admin.jar /app.jar
+ADD voyo-xxl-job-2.4.2.jar /app.jar
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 EXPOSE 8083
 ENTRYPOINT ["java","-jar"]

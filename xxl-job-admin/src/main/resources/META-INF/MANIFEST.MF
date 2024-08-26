@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: netty-common-4.1.101.Final.jar spring-context-5.3.31.jar myb
+ atis-3.5.14.jar netty-codec-4.1.101.Final.jar spring-boot-starter-mail-
+ 2.7.18.jar mybatis-spring-boot-starter-2.3.2.jar jakarta.mail-1.6.7.jar
+  spring-boot-starter-2.7.18.jar spring-boot-starter-freemarker-2.7.18.j
+ ar spring-boot-actuator-autoconfigure-2.7.18.jar jakarta.activation-1.2
+ .2.jar spring-tx-5.3.31.jar jackson-datatype-jdk8-2.13.5.jar spring-boo
+ t-starter-tomcat-2.7.18.jar netty-transport-native-unix-common-4.1.101.
+ Final.jar jackson-core-2.13.5.jar jackson-datatype-jsr310-2.13.5.jar ja
+ ckson-module-parameter-names-2.13.5.jar jakarta.annotation-api-1.3.5.ja
+ r spring-webmvc-5.3.31.jar groovy-4.0.21.jar mysql-connector-j-8.3.0.ja
+ r spring-jdbc-5.3.31.jar micrometer-core-1.9.17.jar jackson-annotations
+ -2.13.5.jar spring-boot-actuator-2.7.18.jar freemarker-2.3.32.jar sprin
+ g-boot-starter-actuator-2.7.18.jar netty-handler-4.1.101.Final.jar spri
+ ng-boot-starter-jdbc-2.7.18.jar mybatis-spring-boot-autoconfigure-2.3.2
+ .jar spring-boot-starter-logging-2.7.18.jar netty-resolver-4.1.101.Fina
+ l.jar logback-classic-1.2.12.jar HdrHistogram-2.1.12.jar spring-boot-st
+ arter-web-2.7.18.jar spring-boot-starter-json-2.7.18.jar netty-transpor
+ t-4.1.101.Final.jar snakeyaml-1.30.jar spring-boot-2.7.18.jar tomcat-em
+ bed-websocket-9.0.83.jar spring-core-5.3.31.jar HikariCP-4.0.3.jar spri
+ ng-beans-5.3.31.jar log4j-api-2.17.2.jar tomcat-embed-core-9.0.83.jar s
+ pring-jcl-5.3.31.jar netty-codec-http-4.1.101.Final.jar spring-expressi
+ on-5.3.31.jar jackson-databind-2.13.5.jar log4j-to-slf4j-2.17.2.jar tom
+ cat-embed-el-9.0.83.jar jul-to-slf4j-1.7.36.jar mybatis-spring-2.1.2.ja
+ r slf4j-api-1.7.36.jar spring-boot-autoconfigure-2.7.18.jar LatencyUtil
+ s-2.0.3.jar logback-core-1.2.12.jar spring-web-5.3.31.jar spring-aop-5.
+ 3.31.jar netty-buffer-4.1.101.Final.jar spring-context-support-5.3.31.j
+ ar gson-2.9.1.jar
+
