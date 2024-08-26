@@ -68,11 +68,6 @@ public class XxlJobRemotingUtil {
     public static ReturnT postBody(String url, String accessToken, int timeout, Object requestObj, Class returnTargClassOfT) {
         HttpURLConnection connection = null;
         BufferedReader bufferedReader = null;
-        System.out.println("-------accessToken");
-        System.out.println(accessToken);
-        System.out.println("-------url");
-        System.out.println(url);
-
         try {
             // connection
             URL realUrl = new URL(url);

