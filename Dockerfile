@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM registry.cn-hangzhou.aliyuncs.com/voyo/linux_arm64_openjdk:8-jre-slim
 
 MAINTAINER ztw
 ENV XXL_CONTEXT_PATH="/xxl-job-admin" \

@@ -2,11 +2,14 @@ version: '3'
 
 services:
   xxljob:
-    image: registry.cn-hangzhou.aliyuncs.com/voyo/voyo-xxljob:v2.4.2
+    image: voyo-xxljob:v2.4.2
     container_name: voyo-xxljob
     ports:
       - "8083:8083"
     network_mode: host
+    build:
+      context: ./
+      dockerfile: Dockerfile
     restart: always
     logging:
       driver: "json-file"
